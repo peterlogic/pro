@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<title>Add Post</title>
+<!-- css file -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- Javascript file -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/hammer.min.js"></script>
+<script src="js/html5shiv.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/sidebar.js"></script>
+</head>
+<body>
+<header>
+  <section class="wrapper">
+    <div class="logo pull-left"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+    <section class="nav-search-outer pull-right">
+      <nav class="pull-left">
+        <ul>
+          <li><a href="javascript:void()">Home</a></li>
+          <li><a href="javascript:void()">Blogs</a></li>
+          <li><a href="javascript:void()">Post</a></li>
+          <li><a href="javascript:void()">Contact us</a></li>
+          <li class="login"><a class="login" href="javascript:void()">Login</a></li>
+          <li class="register"><a class="signup" href="javascript:void()">Register</a></li>
+        </ul>
+      </nav>
+      <div class="profileUser"> <img src="images/onlineuserthumb.jpg" alt=""> <a class="ckl" href="#">Stacey</a>
+        <div class="profile-down-window">
+          
+          <ul class="dropdown-menu with-arrow">
+
+                    <li><a class="user" href="#1"> My Profile</a> </li>
+              <li><a class="logout" href="#1"> Logout</a> </li>
+                </ul>
+          
+          </div>
+        </div>
+    </section>
+  </section>
+</header>
+    
+    <!-- SIDEBAR -->
+<div data-sidebar="true" class="sidebar-trigger">
+    <a class="sidebar-toggle" href="#1">
+        <span class="sr-only toggle-menu"></span>
+    </a>
+
+    <div class="sidebar-wrapper sidebar-default">
+
+           
+        <ul>
+          <li><a class="active" href="javascript:void()">Home</a></li>
+          <li><a href="javascript:void()">Blogs</a></li>
+          <li><a href="javascript:void()">Post</a></li>
+          <li><a href="javascript:void()">Contact us</a></li>
+          <li class="login"><a class="login" href="javascript:void()">Login</a></li>
+          <li class="register"><a class="signup" href="javascript:void()">Register</a></li>
+        </ul>
+
+    </div>
+</div>
+    
+<section class="wrapper">
+  <section class="mid-cnt"> 
+    <!--  left sidebar start -->
+    <aside class="mid-left">
+        
+
+ 
+ 
+                <!-- filter start -->
+             <div class="search-filter-cnt">
+                 <div class="mid-left-heading2">Search filter <span><a href="#1">Clear</a></span></div>
+                 
+        <div class="width_100">
+            <div class="search-outer">
+                <input type="text" value="zip code, city, state, country." onfocus="if (this.value=='zip code, city, state, country.') this.value = ''" onblur="if (this.value=='') this.value = 'zip code, city, state, country.'" class="search-filter">
+                <input type="submit" class="filter-search-btn" value="Search" />
+            </div>
+            </div>
+                 
+                 
+                 <div class="width_100">
+                     <label>Show in (miles)</label>
+                    
+                     <select multiple="multiple" placeholder="Select Range" class="SlectBox">
+                      <option selected value="volvo">0-20 miles</option>
+       <option value="saab">0-50 miles</option>
+       <option disabled="disabled" value="mercedes">0-100 miles</option>
+       <option value="audi">0-1000 miles</option>
+       <option value="bmw">+1000 miles</option>
+                </select>
+                     </div>
+                 
+                            <div class="width100">
+                     <label>Category</label>
+                         
+                          <select multiple="multiple" placeholder="Select category" class="SlectBox">
+                        <option selected value="Select category"> Select category</option>						
+                        <option value="1"> Beauty</option>
+                         <option value="2">Business</option>
+                         <option value="3"> Car</option>
+                         <option value="4">Career </option>
+                         <option value="5">Cat</option>
+                         <option value="6"> Celebrity</option>
+                        <option value="7"> Design </option>
+                         <option value="8">DIY </option>
+                         <option value="9">Dog</option>
+                         <option value="10">Economics</option>
+                         <option value="11">Education</option>
+                         <option value="12"Entertainment</option>
+                         <option  value="13">Estate</option>
+                         <option  value="14">Fashion </option>
+                         <option  value="15">Finance </option>
+                         <option  value="16">Fitness</option>
+                         <option  value="17">Food</option>
+                         <option  value="18">Gaming </option>
+                         <option  value="19">Gossip</option>
+                         <option  value="20">Green</option>
+                         <option  value="21">Health</option>
+                         <option  value="22">History</option>
+                         <option  value="23">Law </option>
+                         <option  value="24">Lifestyle </option>
+                        <option  value="25"> Marketing </option>
+                        <option  value="26"> Media </option>
+                         <option  value="27">Medical</option>
+                         <option  value="28">Money</option>
+                         <option  value="29">Movie</option>
+                         <option  value="30">Music</option>
+                        <option  value="31"> Nature</option>
+                        <option  value="32"> Other</option>
+                        <option  value="33"> Parenting</option>
+                        <option  value="34"> Pet</option>
+                         <option  value="35">Photography</option>
+                         <option  value="36">Political</option>
+                         <option  value="37">Real</option>
+                         <option  value="38">Science</option>
+                         <option  value="39">SEO</option>
+                         <option  value="40">Shopping</option>
+                         <option  value="41"> Social</option>
+                         <option  value="42">Sports</option>
+                         <option  value="43">Technology</option>
+                         <option  value="44">Travel</option>
+                         <option  value="45">University </option>
+                         <option  value="46">Wedding </option>
+                        <option  value="47"> Wine</option>
+                         </select>
+
+                     </div>
+                 
+                    <div class="width100">
+                 <label class="radio-input-div"> <input type="radio" value="1" name="myradio1"> <span>Business</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio1"> <span>Individual</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio1"> <span>Both</span></label>
+                 </div>
+                 
+                   <div class="width100">
+                 <label class="radio-input-div"> <input type="radio" value="1" name="myradio2"> <span>Barter</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio2"> <span>$ Transactions</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio2"> <span>Both</span></label>
+                 </div>
+                      <div class="width_100">
+                 <label class="radio-input-div"> <input type="radio" value="1" name="myradio3"> <span>Annonymous</span></label>
+                 </div> 
+        
+        </div>
+        <!-- filter end -->
+        
+      <div class="mid-left-heading">Bulletin</div>
+      <section class="news-feed-listing scroll-pane">
+        <ul>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/live-feed-img-01.png"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-01.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-02.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-03.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-04.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-05.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+        </ul>
+      </section>
+      <div class="ad-img"><img src="images/ad-img.jpg"></div>
+    </aside>
+    <!--  left sidebar end -->
+    
+    <section class="mid-right">
+      <section class="login-outer">
+        <div class="loginInner">
+          <div class="borderCol">
+            <h1>Add a new blog entry</h1>
+          </div>
+          <div class="clear"></div>
+          <div class="accountInfo addPost">
+            <div class="fullWidth">
+              <label>Title</label>
+              <input type="text" value="" class="titleInput">
+            </div>
+              
+                  <div class="fullWidth">
+              <label>Category</label>
+          
+              <select multiple="multiple" placeholder="Select category" class="SlectBox">
+                        <option selected value="Select category"> Select category</option>						
+                        <option value="1"> Beauty</option>
+                         <option value="2">Business</option>
+                         <option value="3"> Car</option>
+                         <option value="4">Career </option>
+                         <option value="5">Cat</option>
+                         <option value="6"> Celebrity</option>
+                        <option value="7"> Design </option>
+                         <option value="8">DIY </option>
+                         <option value="9">Dog</option>
+                         <option value="10">Economics</option>
+                         <option value="11">Education</option>
+                         <option value="12"Entertainment</option>
+                         <option  value="13">Estate</option>
+                         <option  value="14">Fashion </option>
+                         <option  value="15">Finance </option>
+                         <option  value="16">Fitness</option>
+                         <option  value="17">Food</option>
+                         <option  value="18">Gaming </option>
+                         <option  value="19">Gossip</option>
+                         <option  value="20">Green</option>
+                         <option  value="21">Health</option>
+                         <option  value="22">History</option>
+                         <option  value="23">Law </option>
+                         <option  value="24">Lifestyle </option>
+                        <option  value="25"> Marketing </option>
+                        <option  value="26"> Media </option>
+                         <option  value="27">Medical</option>
+                         <option  value="28">Money</option>
+                         <option  value="29">Movie</option>
+                         <option  value="30">Music</option>
+                        <option  value="31"> Nature</option>
+                        <option  value="32"> Other</option>
+                        <option  value="33"> Parenting</option>
+                        <option  value="34"> Pet</option>
+                         <option  value="35">Photography</option>
+                         <option  value="36">Political</option>
+                         <option  value="37">Real</option>
+                         <option  value="38">Science</option>
+                         <option  value="39">SEO</option>
+                         <option  value="40">Shopping</option>
+                         <option  value="41"> Social</option>
+                         <option  value="42">Sports</option>
+                         <option  value="43">Technology</option>
+                         <option  value="44">Travel</option>
+                         <option  value="45">University </option>
+                         <option  value="46">Wedding </option>
+                        <option  value="47"> Wine</option>
+                         </select>
+
+            </div>
+              
+            <div class="fullWidth">
+              <label>Description</label>
+              <div class="editor"> <img src="images/editordemo.jpg" alt=""> </div>
+            </div>
+            <div class="fullWidth">
+              <label>Show in</label>
+                           <select multiple="multiple" placeholder="Select Range" class="SlectBox">
+                      <option selected value="volvo">0-20 miles</option>
+       <option value="saab">0-50 miles</option>
+       <option disabled="disabled" value="mercedes">0-100 miles</option>
+       <option value="audi">0-1000 miles</option>
+       <option value="bmw">+1000 miles</option>
+                </select>
+            </div>
+              
+               <div class="fullWidth">
+              <label>Location</label>
+              <input type="text" value="" class="titleInput">
+            </div>
+              
+               <div class="fullWidth">
+              <label>Zip code</label>
+              <input type="text" value="" class="titleInput">
+            </div>
+			
+			 <div class="fullWidth">
+			<div class="radio-input"> <input type="radio" name=myradio1 value="1"> <span>Individual</span></div>
+			<div class="radio-input"> <input type="radio" name=myradio1 value="1"> <span>Business</span></div>
+			<div class="radio-input"> <input type="radio" name=myradio1 value="1"> <span>Both</span></div>
+			 </div>
+			
+			
+            <input type="submit" value="Submit" class="submitBtn">
+          </div>
+        </div>
+      </section>
+    </section>
+  </section>
+</section>
+<footer>
+  <section class="wrapper">
+    <div class="about-sec">
+      <div class="footer-heading">About Us</div>
+      <div class="footer-logo"><img src="images/footer-logo.jpg"></div>
+      <div class="footer-about"> This is Photoshop's version  of Lorem Ipsum. Proin gravida nibht vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-heading">Links</div>
+      <ul>
+        <li><a href="#1">Home</a></li>
+        <li><a href="#1">Terms & conditions</a></li>
+        <li><a href="#1">Blogs</a></li>
+        <li><a href="#1">Private Policy</a></li>
+        <li><a href="#1">Post</a></li>
+        <li><a href="#1">Donate</a></li>
+        <li><a href="#1">Help</a></li>
+        <li><a href="#1">Site Map</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <div class="footer-heading">Connect With Us</div>
+      <ul>
+        <li><a  class="fb" href="#1"></a></li>
+        <li><a class="twitter" href="#1"></a></li>
+        <li><a class="gplus" href="#1"></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+<div class="donate-btn"><a href="#"></a></div>
+
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script> 
+<!-- the jScrollPane script --> 
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script src="js/jquery.sumoselect.js"></script>
+<script type="text/javascript" >
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+</script> 
+<script type="text/javascript">
+        $(document).ready(function () {
+            window.asd = $('.SlectBox').SumoSelect({ csvDispCount: 3 });
+            window.test = $('.testsel').SumoSelect({okCancelInMulti:true });
+        });
+</script>
+    
+<script type="text/javascript">
+$(document).ready(function() {
+$(".ckl").click(function() {
+$(".profile-down-window").slideToggle("fast");
+});
+$(".profile-down-window").hide("fast");   
+});
+</script>    
+
+<body>
+</html>

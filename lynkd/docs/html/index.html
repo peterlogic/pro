@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<title>Welcome To Lynkd</title>
+<!-- css file -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- Javascript file -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/hammer.min.js"></script>
+<script src="js/html5shiv.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/sidebar.js"></script>
+</head>
+<body>
+<header>
+  <section class="wrapper">
+    <div class="logo pull-left"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+    <section class="nav-search-outer nav-search-full pull-right">
+      <nav class="pull-left">
+        <ul>
+          <li><a href="javascript:void()">Home</a></li>
+          <li><a href="javascript:void()">Blogs</a></li>
+          <li><a href="javascript:void()">Post</a></li>
+          <li><a href="javascript:void()">Contact us</a></li>
+          <li class="login"><a class="login" href="javascript:void()">Login</a></li>
+          <li class="register"><a class="signup" href="javascript:void()">Register</a></li>
+        </ul>
+      </nav>
+      <aside class="search-box pull-left">
+        <input 
+    name="tb" 
+    type="text" value="Search" onblur="if (this.value=='') this.value = 'Search'" onfocus="if (this.value=='Search') this.value = ''"  class="inputbox pull-left" />
+        <input type="submit" value="" class="search-btn pull-left" />
+      </aside>
+    </section>
+  </section>
+    
+
+    
+</header>
+    
+    
+
+
+<!-- SIDEBAR -->
+<div data-sidebar="true" class="sidebar-trigger">
+    <a class="sidebar-toggle" href="#1">
+        <span class="sr-only toggle-menu"></span>
+    </a>
+
+    <div class="sidebar-wrapper sidebar-default">
+
+           
+        <ul>
+          <li><a class="active" href="javascript:void()">Home</a></li>
+          <li><a href="javascript:void()">Blogs</a></li>
+          <li><a href="javascript:void()">Post</a></li>
+          <li><a href="javascript:void()">Contact us</a></li>
+          <li class="login"><a class="login" href="javascript:void()">Login</a></li>
+          <li class="register"><a class="signup" href="javascript:void()">Register</a></li>
+        </ul>
+
+    </div>
+</div>
+    
+    
+    
+    
+<section class="wrapper">
+  <section class="mid-cnt"> 
+    <!--  left sidebar start -->
+    <aside class="mid-left">
+        
+
+        <!-- filter start -->
+             <div class="search-filter-cnt">
+                 <div class="mid-left-heading2">Search filter <span><a href="#1">Clear</a></span></div>
+                 
+        <div class="width_100">
+            <div class="search-outer">
+                <input type="text" value="zip code, city, state, country." onfocus="if (this.value=='zip code, city, state, country.') this.value = ''" onblur="if (this.value=='') this.value = 'zip code, city, state, country.'" class="search-filter">
+                <input type="submit" class="filter-search-btn" value="Search" />
+            </div>
+            </div>
+                 
+                 
+                 <div class="width_100">
+                     <label>Show in (miles)</label>
+             <select multiple="multiple" placeholder="Select Range" class="SlectBox">
+                      <option selected value="volvo">0-20 miles</option>
+       <option value="saab">0-50 miles</option>
+       <option disabled="disabled" value="mercedes">0-100 miles</option>
+       <option value="audi">0-1000 miles</option>
+       <option value="bmw">+1000 miles</option>
+                </select>
+             
+                     </div>
+                            <div class="width100">
+                     <label>Category</label>
+                        <select multiple="multiple" placeholder="Select category" class="SlectBox">
+                        <option selected value="Select category"> Select category</option>						
+                        <option value="1"> Beauty</option>
+                         <option value="2">Business</option>
+                         <option value="3"> Car</option>
+                         <option value="4">Career </option>
+                         <option value="5">Cat</option>
+                         <option value="6"> Celebrity</option>
+                        <option value="7"> Design </option>
+                         <option value="8">DIY </option>
+                         <option value="9">Dog</option>
+                         <option value="10">Economics</option>
+                         <option value="11">Education</option>
+                         <option value="12"Entertainment</option>
+                         <option  value="13">Estate</option>
+                         <option  value="14">Fashion </option>
+                         <option  value="15">Finance </option>
+                         <option  value="16">Fitness</option>
+                         <option  value="17">Food</option>
+                         <option  value="18">Gaming </option>
+                         <option  value="19">Gossip</option>
+                         <option  value="20">Green</option>
+                         <option  value="21">Health</option>
+                         <option  value="22">History</option>
+                         <option  value="23">Law </option>
+                         <option  value="24">Lifestyle </option>
+                        <option  value="25"> Marketing </option>
+                        <option  value="26"> Media </option>
+                         <option  value="27">Medical</option>
+                         <option  value="28">Money</option>
+                         <option  value="29">Movie</option>
+                         <option  value="30">Music</option>
+                        <option  value="31"> Nature</option>
+                        <option  value="32"> Other</option>
+                        <option  value="33"> Parenting</option>
+                        <option  value="34"> Pet</option>
+                         <option  value="35">Photography</option>
+                         <option  value="36">Political</option>
+                         <option  value="37">Real</option>
+                         <option  value="38">Science</option>
+                         <option  value="39">SEO</option>
+                         <option  value="40">Shopping</option>
+                         <option  value="41"> Social</option>
+                         <option  value="42">Sports</option>
+                         <option  value="43">Technology</option>
+                         <option  value="44">Travel</option>
+                         <option  value="45">University </option>
+                         <option  value="46">Wedding </option>
+                        <option  value="47"> Wine</option>
+                         </select>
+
+                     </div>
+                 
+                 <div class="width100">
+                 <label class="radio-input-div"> <input type="radio" value="1" name="myradio1"> <span>Business</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio1"> <span>Individual</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio1"> <span>Both</span></label>
+                 </div>
+                 
+                   <div class="width100">
+                 <label class="radio-input-div"> <input type="radio" value="1" name="myradio2"> <span>Barter</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio2"> <span>$ Transactions</span></label>
+                     <label class="radio-input-div"> <input type="radio" value="1" name="myradio2"> <span>Both</span></label>
+                 </div>
+                      <div class="width_100">
+                 <label class="radio-input-div"> <input type="radio" value="1" name="myradio3"> <span>Annonymous</span></label>
+                 </div> 
+        
+        </div>
+        <!-- filter end -->
+        
+        
+        
+      <div class="mid-left-heading">Bulletin</div>
+      <section class="news-feed-listing scroll-pane">
+        <ul>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/live-feed-img-01.png"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-01.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-02.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-03.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-04.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+          <li> <a href="javascript:void(0)">
+            <div class="listing-image"><img src="images/bulltin-img-05.jpg"  alt="" /></div>
+            <div class="news-feed-content">
+              <div class="news-feed-description">5 Ways to tackle the compexity of your next big</div>
+              <div class="news-feed-time">21 mintues ago</div>
+            </div>
+            </a> </li>
+        </ul>
+      </section>
+      <div class="mid-left-heading">Following</div>
+      <div class="folowing-box">
+        <ul>
+          <li><a href=""><img src="images/following-pic-01.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-02.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-03.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-04.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-05.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-06.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-07.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-08.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-09.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-01.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-02.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-03.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-04.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-05.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-06.jpg" /></a></li>
+          <li><a href=""><img src="images/following-pic-07.jpg" /></a></li>
+        </ul>
+      </div>
+      <div class="ad-img"><img src="images/ad-img.jpg" /></div>
+    </aside>
+    <!--  left sidebar end -->
+    
+    <section class="mid-right"> 
+      
+      <!--post box1-->
+      <div class="post-home-box">
+        <div class="post-home-img"><img src="images/post-large-01.jpg" alt="" /></div>
+        <div class="post-home-content-cnt">
+          <div class="post-home-heading"><a href="#1">Great architects book</a></div>
+          <p>We often look back on the past with a smile, but few products can transform the power of nostalgia into contemporary relevance. The new Fiat 500 successfully navigated this emotional maze, taking the much-loved 1950s original as its premise but scaling. </p>
+          <div class="post-home-bottom">
+            <div class="post-home-bottom-left"> <a href="#">Read more..</a>
+              <div class="time-txt">34 minutes ago.</div>
+            </div>
+          <div class="post-home-bottom-right">
+              <div class="likes pull-left"><a class="like" href="#"></a><span><a href="#1">12,921</a></span></div>
+              <div class="comment pull-left"><a class="comment" href="#"></a><span><a href="#1">16</a></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--post box1 end--> 
+      
+      <!--post box1-->
+      <div class="post-home-box">
+        <div class="post-home-img"><img src="images/post-large-02.jpg" alt="" /></div>
+        <div class="post-home-content-cnt">
+          <div class="post-home-heading"><a href="#1">Lorem ipsum Dolor Site Amet</a></div>
+          <p>We often look back on the past with a smile, but few products can transform the power of nostalgia into contemporary relevance. The new Fiat 500 successfully navigated this emotional maze, taking the much-loved 1950s original as its premise but scaling. </p>
+          <div class="post-home-bottom">
+            <div class="post-home-bottom-left"> <a href="#">Read more..</a>
+              <div class="time-txt">34 minutes ago.</div>
+            </div>
+           <div class="post-home-bottom-right">
+              <div class="likes pull-left"><a class="like" href="#"></a><span><a href="#1">12,921</a></span></div>
+              <div class="comment pull-left"><a class="comment" href="#"></a><span><a href="#1">16</a></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--post box1 end-->
+        
+              <!--post box1-->
+      <div class="post-home-box">
+        <div class="post-home-img"><img src="images/post-large-03.jpg" alt="" /></div>
+        <div class="post-home-content-cnt">
+          <div class="post-home-heading"><a href="#1">Lorem ipsum Dolor Site Amet</a></div>
+          <p>We often look back on the past with a smile, but few products can transform the power of nostalgia into contemporary relevance. The new Fiat 500 successfully navigated this emotional maze, taking the much-loved 1950s original as its premise but scaling. </p>
+          <div class="post-home-bottom">
+            <div class="post-home-bottom-left"> <a href="#">Read more..</a>
+              <div class="time-txt">34 minutes ago.</div>
+            </div>
+            <div class="post-home-bottom-right">
+              <div class="likes pull-left"><a class="like" href="#"></a><span><a href="#1">12,921</a></span></div>
+              <div class="comment pull-left"><a class="comment" href="#"></a><span><a href="#1">16</a></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--post box1 end-->
+      
+      <div class="pagination">
+        <ul>
+          <li><a href="#1"> &laquo; </a></li>
+          <li><a href="#1">1</a></li>
+          <li><a class="active" href="#1">2</a></li>
+          <li><a href="#1">3</a></li>
+          <li><a href="#1">4</a></li>
+          <li><a href="#1">5</a></li>
+          <li><a href="#1"> &raquo;</a></li>
+        </ul>
+      </div>
+    </section>
+  </section>
+</section>
+<footer>
+  <section class="wrapper">
+    <div class="about-sec">
+      <div class="footer-heading">About Us</div>
+      <div class="footer-logo"><img src="images/footer-logo.jpg"></div>
+      <div class="footer-about"> This is Photoshop's version  of Lorem Ipsum. Proin gravida nibht vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-heading">Links</div>
+      <ul>
+        <li><a href="#1">Home</a></li>
+        <li><a href="#1">Terms & conditions</a></li>
+        <li><a href="#1">Blogs</a></li>
+        <li><a href="#1">Private Policy</a></li>
+        <li><a href="#1">Post</a></li>
+        <li><a href="#1">Donate</a></li>
+        <li><a href="#1">Help</a></li>
+        <li><a href="#1">Site Map</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <div class="footer-heading">Connect With Us</div>
+      <ul>
+        <li><a  class="fb" href="#1"></a></li>
+        <li><a class="twitter" href="#1"></a></li>
+        <li><a class="gplus" href="#1"></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+<div class="donate-btn"><a href="#"></a></div>
+
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script> 
+<!-- the jScrollPane script --> 
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script src="js/jquery.sumoselect.js"></script>
+<script type="text/javascript" >
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+</script> 
+<script type="text/javascript">
+        $(document).ready(function () {
+            window.asd = $('.SlectBox').SumoSelect({ csvDispCount: 3 });
+            window.test = $('.testsel').SumoSelect({okCancelInMulti:true });
+        });
+</script>
+    
+<script type="text/javascript">
+$(document).ready(function() {
+$(".ckl").click(function() {
+$(".profile-down-window").slideToggle("fast");
+});
+$(".profile-down-window").hide("fast");   
+});
+</script>    
+
+<body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+<title>Write Message</title>
+<!-- css file -->
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+<!-- Javascript file -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/hammer.min.js"></script>
+<script src="js/html5shiv.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/sidebar.js"></script>
+</head>
+<body>
+<header>
+  <section class="wrapper">
+    <div class="logo pull-left"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+    <section class="nav-search-outer pull-right">
+      <nav class="pull-left">
+        <ul>
+          <li><a href="javascript:void()">Home</a></li>
+          <li><a href="javascript:void()">Blogs</a></li>
+          <li><a href="javascript:void()">Post</a></li>
+          <li><a href="javascript:void()">Contact us</a></li>
+          <li class="login"><a class="login" href="javascript:void()">Login</a></li>
+          <li class="register"><a class="signup" href="javascript:void()">Register</a></li>
+        </ul>
+      </nav>
+           <div class="profileUser"> <img src="images/onlineuserthumb.jpg" alt=""> <a class="ckl" href="#">Stacey</a>
+        <div class="profile-down-window">
+          
+          <ul class="dropdown-menu with-arrow">
+
+                    <li><a class="user" href="#1"> My Profile</a> </li>
+              <li><a class="logout" href="#1"> Logout</a> </li>
+                </ul>
+          
+          </div>
+        </div>
+    </section>
+  </section>
+</header>
+<!-- SIDEBAR -->
+<div data-sidebar="true" class="sidebar-trigger">
+    <a class="sidebar-toggle" href="#1">
+        <span class="sr-only toggle-menu"></span>
+    </a>
+
+    <div class="sidebar-wrapper sidebar-default">
+
+           
+        <ul>
+          <li><a class="active" href="javascript:void()">Home</a></li>
+          <li><a href="javascript:void()">Blogs</a></li>
+          <li><a href="javascript:void()">Post</a></li>
+          <li><a href="javascript:void()">Contact us</a></li>
+          <li class="login"><a class="login" href="javascript:void()">Login</a></li>
+          <li class="register"><a class="signup" href="javascript:void()">Register</a></li>
+        </ul>
+
+    </div>
+</div>    
+<section class="wrapper">
+  <section class="mid-cnt"> 
+    <!--  left sidebar start -->
+    <aside class="mid-left">
+      <section class="leftCol"> <a href="#" class="redBtn">Write</a>
+        <ul class="leftListing">
+          <li><a href="#">Inbox (124)</a></li>
+          <li><a href="#">Sent </a></li>
+          <li><a href="#">Deleted</a></li>
+        </ul>
+      </section>
+    </aside>
+    <!--  left sidebar end -->
+    
+    <section class="mid-right">
+      <div class="rightCol">
+        <div class="blueHeading">New Message <a href="#" class="delete"></a> </div>
+        <div class="messageInfo newmessage">
+          <input type="text" value="To :" class="msgInput" onblur="if (this.value=='') this.value = 'To :'" onfocus="if (this.value=='To :') this.value = ''">
+          <input type="text" value="Subject :" class="msgInput" onblur="if (this.value=='') this.value = 'Subject :'" onfocus="if (this.value=='Subject :') this.value = ''">
+          <textarea>Message :</textarea>
+          <input type="button" class="sendBtn" value="send">
+        </div>
+      </div>
+    </section>
+      
+      <div class="followingColOuter">
+<div class="footer-heading smallheading">Following</div>
+
+<div class="folowing-box followingCol">
+        <ul>
+          <li><a href=""><img src="images/following-pic-01.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-02.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-03.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-04.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-05.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-06.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-07.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-08.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-09.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-01.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-02.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-03.jpg"></a></li>
+          <li><a href=""><img src="images/following-pic-04.jpg"></a></li>
+          <li class="more"><a href="">more</a></li>
+   
+        </ul>
+      </div>
+
+
+</div>
+      
+  </section>
+</section>
+<footer>
+  <section class="wrapper">
+    <div class="about-sec">
+      <div class="footer-heading">About Us</div>
+      <div class="footer-logo"><img src="images/footer-logo.jpg"></div>
+      <div class="footer-about"> This is Photoshop's version  of Lorem Ipsum. Proin gravida nibht vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</div>
+    </div>
+    <div class="footer-links">
+      <div class="footer-heading">Links</div>
+      <ul>
+        <li><a href="#1">Home</a></li>
+        <li><a href="#1">Terms & conditions</a></li>
+        <li><a href="#1">Blogs</a></li>
+        <li><a href="#1">Private Policy</a></li>
+        <li><a href="#1">Post</a></li>
+        <li><a href="#1">Donate</a></li>
+        <li><a href="#1">Help</a></li>
+        <li><a href="#1">Site Map</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <div class="footer-heading">Connect With Us</div>
+      <ul>
+        <li><a  class="fb" href="#1"></a></li>
+        <li><a class="twitter" href="#1"></a></li>
+        <li><a class="gplus" href="#1"></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+<div class="donate-btn"><a href="#"></a></div>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script> 
+<!-- the jScrollPane script --> 
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<script src="js/jquery.sumoselect.js"></script>
+<script type="text/javascript" >
+			$(function()
+			{
+				$('.scroll-pane').jScrollPane();
+			});
+</script> 
+<script type="text/javascript">
+        $(document).ready(function () {
+            window.asd = $('.SlectBox').SumoSelect({ csvDispCount: 3 });
+            window.test = $('.testsel').SumoSelect({okCancelInMulti:true });
+        });
+</script>
+    
+<script type="text/javascript">
+$(document).ready(function() {
+$(".ckl").click(function() {
+$(".profile-down-window").slideToggle("fast");
+});
+$(".profile-down-window").hide("fast");   
+});
+</script>    
+
+<body>
+</html>
